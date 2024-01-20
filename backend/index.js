@@ -21,6 +21,7 @@ const store = new sessionStore({
 //     await db.sync();
 // })();
 
+
 app.use(session({
     secret: process.env.SESS_SECRET,
     resave: false,
